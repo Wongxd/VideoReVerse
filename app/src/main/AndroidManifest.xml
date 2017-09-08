@@ -21,11 +21,20 @@
         <activity android:name=".ShootActivity">
 
         </activity>
-        <activity android:name=".PermissionsActivity" />
-        <activity android:name=".MakeVideoActivity" />
-        <activity android:name=".MusicActivity" />
-        <activity android:name=".PreviewActivity" />
-        <activity android:name="com.wongxd.MainActivity">
+        <activity android:name=".PermissionsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MakeVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MusicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wongxd.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
