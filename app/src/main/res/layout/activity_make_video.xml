@@ -67,7 +67,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="原音"
+                android:text="倒转原音"
                 android:textColor="@android:color/white"
                 android:textSize="13sp" />
 
@@ -91,7 +91,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="伴唱"
+                android:text="自选背景"
                 android:textColor="@android:color/white"
                 android:textSize="13sp" />
 
